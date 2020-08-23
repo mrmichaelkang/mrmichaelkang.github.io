@@ -25,7 +25,7 @@ header {
 }
 
 .header-img {
-  background: url("../images/mountain.jpg");
+  background: url(../images/mountain.jpg);
 }
 
 .overlay {
@@ -275,7 +275,7 @@ header {
 }
 
 .resume-img {
-  background: url("../images/laptop-blur.jpg");
+  background: url(../images/laptop-blur.jpg);
 }
 
 .resume h2 {
