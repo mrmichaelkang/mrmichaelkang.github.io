@@ -52,7 +52,7 @@ function smoothScroll(target, duration) {
   }
 
   requestAnimationFrame(animation);
-  navbarToggler.click();
+
 }
 
 function navbarAnimation() {
@@ -100,6 +100,7 @@ links.forEach(link => {
   link.addEventListener("click", function() {
     let target = link.getAttribute("href");
     smoothScroll(target, 1000);
+    navbarToggler.click();
   });
 });
 
