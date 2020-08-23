@@ -52,7 +52,6 @@ function smoothScroll(target, duration) {
   }
 
   requestAnimationFrame(animation);
-
 }
 
 function navbarAnimation() {

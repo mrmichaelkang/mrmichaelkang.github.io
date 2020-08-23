@@ -275,7 +275,7 @@ header {
 }
 
 .resume-img {
-  background: url(../images/laptop-blur.jpg);
+  background: url("../images/laptop-blur.jpg");
 }
 
 .resume h2 {
