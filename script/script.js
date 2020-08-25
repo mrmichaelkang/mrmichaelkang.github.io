@@ -94,8 +94,13 @@ function carouselAnimation(value) {
 window.addEventListener("load", () => {
   if (window.innerWidth < 500) {
     // Remove parallax effect
-    document.querySelector("header").classList.remove("parallax");
-    document.querySelector(".resume").classList.remove("parallax");
+    let parallaxItems = document.querySelectorAll(".parallax")
+    // document.querySelector("header").classList.remove("parallax");
+    // document.querySelector(".resume").classList.remove("parallax");
+
+    parallaxItems.forEach(item => {
+      item.classList.remove("parallax");
+    });
   }
 }) 
 

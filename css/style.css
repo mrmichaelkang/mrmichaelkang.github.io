@@ -386,6 +386,7 @@ header {
 #contact {
   background-color: #F0F0F0;
   min-height: 40%;
+  padding: 20px 0;
 }
 
 #contact .contact-icon {
@@ -400,7 +401,7 @@ header {
 }
 
 #contact p {
-  width: 450px;
+  width: 300px;
   text-align: center;
   line-height: 1.3;
   letter-spacing: 2px;
@@ -430,7 +431,6 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
 footer p {
@@ -604,5 +604,9 @@ footer p a:hover {
   .experience-item {
     width: 350px;
     margin: 20px;
+  }
+
+  #contact p {
+    width: 450px;
   }
 }
