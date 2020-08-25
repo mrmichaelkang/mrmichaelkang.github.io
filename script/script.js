@@ -17,6 +17,7 @@ let carouselIndex = 0;
 let nextBtn = document.querySelector(".next-btn");
 let prevBtn = document.querySelector(".prev-btn");
 
+
 //////////////////////
 //     Functions   ///
 //////////////////////
@@ -90,19 +91,20 @@ function carouselAnimation(value) {
 // Event Listeners ///
 //////////////////////
 
-// Mobile Devices 
+// Check is Mobile Devices is current context
 window.addEventListener("load", () => {
-  if (window.innerWidth < 500) {
-    // Remove parallax effect
-    let parallaxItems = document.querySelectorAll(".parallax")
-    // document.querySelector("header").classList.remove("parallax");
-    // document.querySelector(".resume").classList.remove("parallax");
+  let userAgent = navigator.userAgent
 
+  if (/iPad|iPhone|iPod|android|windows phone/.test(userAgent) && !window.MSStream) {
+    // Remove parallax effect
+    let parallaxItems = document.querySelectorAll(".parallax");
+    console.log("HERE");
     parallaxItems.forEach(item => {
       item.classList.remove("parallax");
+      item.style.objectFot = "cover";
     });
   }
-}) 
+});
 
 
 // Navbar appearance on scoll
