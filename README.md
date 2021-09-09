@@ -1,4 +1,4 @@
-# mrmichaelkang.github.io
+# [mrmichaelkang.github.io](https://mrmichaelkang.com)
 
 Welcome! This is my website, made with only HTML, CSS and Javascript! No framework used! I decided to challenge myself to create a website with no framework and to see how I would go about create some of the features like the scroll transition of the navbar.
 
