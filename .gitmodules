@@ -1,3 +1,6 @@
 [submodule "projects/etch-a-sketch"]
 	path = projects/etch-a-sketch
 	url = git@github.com:mrmichaelkang/etch-a-sketch.git
+[submodule "projects/calculator"]
+	path = projects/calculator
+	url = git@github.com:mrmichaelkang/calculator.git
