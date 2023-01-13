@@ -4,3 +4,6 @@
 [submodule "projects/calculator"]
 	path = projects/calculator
 	url = git@github.com:mrmichaelkang/calculator.git
+[submodule "projects/library-management-app"]
+	path = projects/library-management-app
+	url = git@github.com:mrmichaelkang/library-management-app.git
