@@ -7,3 +7,6 @@
 [submodule "projects/library-management-app"]
 	path = projects/library-management-app
 	url = git@github.com:mrmichaelkang/library-management-app.git
+[submodule "projects/tic-tac-toe"]
+	path = projects/tic-tac-toe
+	url = git@github.com:mrmichaelkang/tic-tac-toe.git
